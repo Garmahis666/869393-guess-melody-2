@@ -11,6 +11,6 @@ const App = (props) => {
   />;
 };
 
-App.propTypes = {errorCount: number, gameTime: number};
+App.propTypes = {errorCount: number.isRequired, gameTime: number.isRequired};
 
 export default App;

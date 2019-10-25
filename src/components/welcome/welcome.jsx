@@ -2,7 +2,7 @@ import React from "react";
 import {number} from 'prop-types';
 
 const WelcomeScreen = (props) => {
-  const {time, errorCount} = props;
+  const {time=5, errorCount=3} = props;
 
   return <section className="welcome">
     <div className="welcome__logo">
