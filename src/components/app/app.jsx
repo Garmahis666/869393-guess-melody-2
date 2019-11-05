@@ -5,9 +5,11 @@ import WelcomeScreen from '../welcome/welcome.jsx';
 const App = (props) => {
   const {gameTime, errorCount} = props;
 
+  const onClick = () => {};
   return <WelcomeScreen
-    time={gameTime}
-    errorCount={errorCount}
+    minutes={gameTime}
+    mistakes={errorCount}
+    onClick={onClick}
   />;
 };
 
